@@ -25,3 +25,17 @@ def yaziTura():
     
 sonuc = yaziTura()
 print(sonuc)
+
+
+# 4 kendisine gonderilen 2 sayi arasindaki tum asla sayilari bulan fonk yaziniz
+
+def asalSayiBul(sayi1,sayi2):
+    for i in range(sayi1,sayi2):
+        if(i > 1):
+            for j in range(2,i):
+                if (i % j == 0):
+                    break
+            else:
+                    print(i)
+
+asalSayiBul(10,30)
