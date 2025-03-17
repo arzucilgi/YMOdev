@@ -26,6 +26,11 @@ def yaziTura():
 sonuc = yaziTura()
 print(sonuc)
 
+# 4 kendisinden kucuk olan cift sayilarin toplamini bulan fonksiyon yaziniz.
+def cift_toplam(n):
+    return sum(i for i in range(n) if i % 2 == 0)
+
+print(cift_toplam(10))
 
 
 # 5 kendisine gonderilen bir sayinin tam bolenlerini bir liste seklinde donduren fonk yaziniz
